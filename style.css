@@ -1,7 +1,7 @@
 @font-face { 
   font-family: News Cycle; 
-    src: url('../fonts/NewsCycle-Regular.eot'); 
-    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+    src: url('newscycle-regular.eot'); 
+    src: local("News Cycle"), url('newscycle-regular.ttf'); 
 } 
 
 html { 
@@ -20,7 +20,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 body { 
   font: normal .85em arial, sans-serif;
-  background: #F5F5F5 url(../images/pattern.png);
+  background: #F5F5F5 url(pattern.png);
   color: #444;
   padding-bottom: 40px;
 }
@@ -205,7 +205,7 @@ nav {
 
 #content ul li { 
   list-style-type: none;
-  background: transparent url(../images/bullet.png) no-repeat left center;
+  background: transparent url(bullet.png) no-repeat left center;
   margin: 0 0 0 0; 
   padding: 2px 0 2px 28px;
   line-height: 1.5em;
